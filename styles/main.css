@@ -69,6 +69,8 @@ H2, H3 {
 }
 
 UL.project-list {
+  margin: 0px;
+  padding: 0px 10px;
 }
 
 UL.project-list LI {
@@ -79,8 +81,14 @@ UL.project-list LI {
 }
 
 LI.project .title {
-  font-weight: bold;
+  font-weight: 400;
   color: #335;
   font-size: 21px;
   margin-bottom: 10px;
+}
+
+LI.project .tag {
+  font-weight: 300;
+  color: #A44;
+  font-size: 16px;
 }
